@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="902e161f-590d-4e47-a810-9ba025d3cd15" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/aliyunlog.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/AliyunLogClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/AliyunLogException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/AliyunLogLoggerFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/AliyunLogSimpleLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/AliyunLogUtil.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/LogContent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/LogGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/LogPackage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/LogPackageList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/ACL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/CompressedLogGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Histogram.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/InputDetail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/LogItem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/LogLevel/LogLevel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Machine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/MachineGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/MachineGroupAttribute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/MachineInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/MachineStatus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/OssShipperConfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/OssShipperCsvStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/OssShipperJsonStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/OssShipperParquetStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/OssShipperStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/OutputDetail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/ApplyConfigToMachineGroupRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/BatchGetLogsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/CreateACLRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/CreateConfigRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/CreateLogstoreRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/CreateMachineGroupRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/CreateShipperRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/DeleteACLRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/DeleteConfigRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/DeleteLogstoreRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/DeleteMachineGroupRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/DeleteShardRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/DeleteShipperRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetACLRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetConfigRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetCursorRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetHistogramsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetLogsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetMachineGroupRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetMachineRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetProjectLogsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetShipperConfigRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/GetShipperTasksRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/ListACLsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/ListConfigsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/ListLogstoresRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/ListMachineGroupsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/ListShardsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/ListShipperRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/ListTopicsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/MergeShardsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/PutLogsRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/RemoveConfigFromMachineGroupRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/RetryShipperTasksRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/SplitShardRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateACLRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateConfigRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateLogstoreRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateMachineGroupRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateShipperRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ApplyConfigToMachineGroupResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/BatchGetLogsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateACLResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateConfigResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateLogstoreResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateMachineGroupResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateShipperResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteACLResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteConfigResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteLogstoreResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteMachineGroupResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteShardResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteShipperResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetACLResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetConfigResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetCursorResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetHistogramsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetLogsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetMachineGroupResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetMachineResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetShipperConfigResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetShipperTasksResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListACLsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListConfigsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListLogstoresResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListMachineGroupsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListShardsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListShipperResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListTopicsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/PutLogsResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/QueriedLog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/RemoveConfigFromMachineGroupResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/RetryShipperTasksResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/Shard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateACLResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateConfigResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateLogstoreResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateMachineGroupResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateShipperResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/Protobuf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/ProtobufEnum.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/ProtobufMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/RequestCore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/RequestCoreException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/ResponseCore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/SlsLog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/SlsLogContent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/SlsLogGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Aliyun/Log/SlsLogGroupList.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="QueriedLog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/QueriedLog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveConfigFromMachineGroupResponse.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/RemoveConfigFromMachineGroupResponse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Response.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/Response.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RetryShipperTasksResponse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/RetryShipperTasksResponse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/Shard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateACLResponse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateACLResponse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateConfigResponse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateConfigResponse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateLogstoreResponse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateLogstoreResponse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateMachineGroupResponse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateMachineGroupResponse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateShipperResponse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateShipperResponse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class</find>
+      <find>_</find>
+      <find>Aliyun_Log_Models_LogLevel_LogLevel</find>
+      <find>AliyunLogModelsLogLevelLogLevel</find>
+      <find>Aliyun_Log_Models_</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>LogLevel</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/Aliyun/Log/Models/Response</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/SplitShardRequest.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateACLRequest.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateConfigRequest.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateLogstoreRequest.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateMachineGroupRequest.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateShipperRequest.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ApplyConfigToMachineGroupResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/SlsLog.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/SlsLogContent.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/SlsLogGroup.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/SlsLogGroupList.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/BatchGetLogsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateACLResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateConfigResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateLogstoreResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateMachineGroupResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateShipperResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteACLResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteConfigResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteLogstoreResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteMachineGroupResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteShardResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteShipperResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/ACL.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetACLResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetConfigResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetCursorResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetHistogramsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetLogsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetMachineGroupResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetMachineResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetShipperConfigResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetShipperTasksResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListACLsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListConfigsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListLogstoresResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListMachineGroupsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListShardsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListShipperResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListTopicsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/PutLogsResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/QueriedLog.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/RemoveConfigFromMachineGroupResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateConfigResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateShipperResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateMachineGroupResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateLogstoreResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateACLResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/Shard.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/RetryShipperTasksResponse.php" />
+        <option value="$PROJECT_DIR$/src/Aliyun/Log/Models/Response/Response.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1080" />
+    <option name="y" value="-335" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyunlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.library.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyunlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyunlog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyunlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyunlog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aliyun" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Log" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyunlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aliyunlog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aliyun" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Log" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="configurable.Global.libraries.is.expanded" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="902e161f-590d-4e47-a810-9ba025d3cd15" name="Default" comment="" />
+      <created>1532919783480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532919783480</updated>
+      <workItem from="1532919785040" duration="12078000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12078000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1080" y="-335" width="1080" height="1920" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateConfigRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateLogstoreRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateMachineGroupRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Request/UpdateShipperRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ApplyConfigToMachineGroupResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/SlsLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/SlsLogContent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/SlsLogGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/SlsLogGroupList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/BatchGetLogsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="75" lean-forward="true" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateACLResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateConfigResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateLogstoreResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateMachineGroupResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/CreateShipperResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteACLResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#77#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteConfigResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteLogstoreResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteMachineGroupResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteShardResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/ACL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/CompressedLogGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/DeleteShipperResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetACLResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetConfigResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetCursorResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetHistogramsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetLogsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetMachineGroupResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetMachineResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetShipperConfigResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/GetShipperTasksResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListACLsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListConfigsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListLogstoresResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListMachineGroupsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListShardsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListShipperResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/ListTopicsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/PutLogsResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/QueriedLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateShipperResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateMachineGroupResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateLogstoreResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateConfigResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/UpdateACLResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/Shard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/RetryShipperTasksResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aliyun/Log/Models/Response/RemoveConfigFromMachineGroupResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
